@@ -2,6 +2,7 @@ import React from 'react';
 // Components
 import TodoForm from './components/TodoForm'
 import TodoList from './components/TodoList'
+import "./components/Todo.css"
 
 const todos = []
 
@@ -52,8 +53,10 @@ clearCompleted = () => {
 }
 
   render() {
+    console.log(this.state)
     return (
       <>
+
       <div className="App">
         <div className="header">
           <h1> TO DO's</h1>
